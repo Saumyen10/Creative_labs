@@ -20,3 +20,11 @@
 
 #Confirm page: After data got submitted
 ![confirm](https://github.com/Saumyen10/Creative_labs/assets/123822223/ccef4fba-8da4-4d0f-9f24-4a23a22cff7b)
+
+
+#Database after users register 
+![register_ac](https://github.com/Saumyen10/Creative_labs/assets/123822223/21c9e4f1-998c-4e51-8a8b-9f87693c5fb2)
+
+#Database after users upload file 
+![data2](https://github.com/Saumyen10/Creative_labs/assets/123822223/7a0dd1b2-ffd2-409f-b392-d767b595953a)
+
