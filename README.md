@@ -7,7 +7,9 @@
 #Confirm page: After data got submitted
 ![confirm](https://github.com/Saumyen10/Creative_labs/assets/123822223/ccef4fba-8da4-4d0f-9f24-4a23a22cff7b)
 
-#Login Page:
+#Login_Page:
+
+
 ![login](https://github.com/Saumyen10/Creative_labs/assets/123822223/3d077f92-b41f-4397-bb28-e2e8907d55b8)
 
 #Signup Page:
