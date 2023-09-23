@@ -9,9 +9,9 @@
 
 #Login_Page:
 
-
 ![login](https://github.com/Saumyen10/Creative_labs/assets/123822223/3d077f92-b41f-4397-bb28-e2e8907d55b8)
 
-#Signup Page:
+#Signup_Page:
+
 ![signup](https://github.com/Saumyen10/Creative_labs/assets/123822223/bbbebe4f-b25a-4e9c-af5d-55e7b74a834f)
 
