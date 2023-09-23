@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>File Upload</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <script src="static/js/submit_disabled.js"></script>
+  <link href="static/css/index.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg p-3" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="static/img/up.png" alt="..." height="30" width="30"> <b>   JustUpload</b>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <div class="collapse navbar-collapse justify-content-end" id="my-navbar">
+          <ul class="navbar-nav">
+            {% if request.user.is_authenticated %}
+            {% csrf_token %}
+            <div class="nav-vl"></div>
+            <li class="nav-item">
+              <a class="nav-link" href="/logout">
+                <i class="fas fa-sign-out-alt"></i>Logout
+              </a>
+            </li>
+            {% else %}
+            <div class="nav-vl"></div>
+            <li class="nav-item">
+              <a class="nav-link" href="/login">
+                <img src="static/img/login.png" height="20" width="20">
+                <i class="fas fa-sign-in-alt"></i>Login
+              </a>
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  </br> 
+  <h2 class="b2"> Upload Files:</h2> 
+  <div class="whole">
+    <div class="row">
+
+      <div class="mb-3">
+        <form method="post" action="{% url 'confirm' %}" class="col-12" enctype="multipart/form-data">
+          {% csrf_token %}
+
+          <div class="mb-3">
+            <label for="{{ form.name.id_for_label }}"><b>File Name:</b></label>
+            {{ form.name }}
+          </div>
+          <div class="mb-3">
+            <label for="{{ form.file.id_for_label }}"><b>File: </b></label>
+            {{ form.file }}
+          </div>
+
+          <button type="submit" id="submitBtn" class="btn btn-primary">Submit</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
