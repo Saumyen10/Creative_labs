@@ -1,8 +1,6 @@
 #Index Page:
 ![index](https://github.com/Saumyen10/Creative_labs/assets/123822223/697e021f-2992-480b-8250-b54274caa406)
 
-#Data is being submitted
-![index_data](https://github.com/Saumyen10/Creative_labs/assets/123822223/95e3e005-0c65-4d44-9e0a-0be74c449ca4)
 
 #upload
 ![upload](https://github.com/Saumyen10/Creative_labs/assets/123822223/ef938ed5-e2c3-4bba-84fc-df11221145e0)
@@ -15,6 +13,9 @@
 
 ![signup](https://github.com/Saumyen10/Creative_labs/assets/123822223/bbbebe4f-b25a-4e9c-af5d-55e7b74a834f)
 
+
+#Data can be submitted only after being logged in
+![index_data](https://github.com/Saumyen10/Creative_labs/assets/123822223/95e3e005-0c65-4d44-9e0a-0be74c449ca4)
 
 
 #Confirm page: After data got submitted
