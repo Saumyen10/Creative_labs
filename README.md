@@ -25,6 +25,8 @@
 #Database after users register 
 ![register_ac](https://github.com/Saumyen10/Creative_labs/assets/123822223/21c9e4f1-998c-4e51-8a8b-9f87693c5fb2)
 
-#Database after users upload file 
+#Database after user upload file 
 ![data2](https://github.com/Saumyen10/Creative_labs/assets/123822223/7a0dd1b2-ffd2-409f-b392-d767b595953a)
 
+#data details
+![data3](https://github.com/Saumyen10/Creative_labs/assets/123822223/af3f4416-5d4f-4e1b-983a-1dfb188f54d1)
